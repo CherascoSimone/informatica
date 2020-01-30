@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<meta charset="utf-8">
+	<meta name="viewport" content ="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content ="si">
+	<meta name="description" content ="Esempio di Template per griglia">
+	<title>TemplateForm</title>
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
+	<script type="application/javascript" src="js/script.js"></script>
+	<!--queste di seguito usate, solo per componenti boostrap e plug-in jquery-->
+	<script type="application/javascript" src="vendor/bootstrap/js/bootstrap.js"></script>
+	<script type="application/javascript" src="vendor/jquery/jquery-3.4.1.js"></script>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-2 green">
+			</div>
+			<div class="col-sm-8">
+				<form name="f1" method="post" action="php/leggiForm.php">
+					<div class="form-goup input-group">
+						<input type="text" id="txtRicerca1" class="form-control" placeHolder="Ricerca1">
+					</div>
+					<div class="form-goup input-group">
+						<input type="text" id="txtRicerca2" class="form-control" placeHolder="Ricerca2">
+					</div>
+					<div class="form-goup input-group">
+						<input type="text" id="txtRicerca3" class="form-control" placeHolder="Ricerca3">
+					</div>
+					<div class="form-goup input-group">
+						<input type="submit" id="btnFiltro" value="Ricerca" class="btn btn-secondary form-control" >
+					</div>
+				</form>
+			</div>
+			<div class="col-sm-2 green">
+			</div>
+		</div>
+	</div>
+	
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-2 green">
+			</div>
+			<div class="col-sm-8">
+				<table class="table table-hover">
+					<tr>
+						<th>attività</th>
+						<th>tempo</th>
+						<th>costo</th>
+						<th>rischio</th>
+					</tr>
+					<tr>
+						<th>dormire</th>
+						<th>1000</th>
+						<th>0</th>
+						<th>0</th>
+					</tr>
+					<tr>
+						<th>mangiare</th>
+						<th>100000</th>
+						<th>10000</th>
+						<th>666</th>
+					</tr>
+					<tr>
+						<th>giocare</th>
+						<th>666</th>
+						<th>666</th>
+						<th>666</th>
+					</tr>
+				</table>
+			</div>
+			<div class="col-sm-2 green">
+			</div>
+		</div>
+	</div>
+</body>
+</html>
